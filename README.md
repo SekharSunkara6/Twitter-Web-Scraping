@@ -3,11 +3,10 @@ In this repository it was created by using Selenium script that can read the Twi
 
 ## Technologies Used:
 1. Selenium: Selenium is a popular tool for automating web browsers. In this project, it is used for web scraping to interact with the Twitter website and extract trending topics.
-2. Beautiful Soup: Beautiful Soup is a Python library for pulling data out of HTML and XML files. It is used in conjunction with Selenium for parsing the HTML content of the Twitter webpage and extracting the relevant information.
-3. MongoDB: MongoDB is a NoSQL database program. It is used to store the scraped data (trending topics) in a database for persistence.
-4. HTML and Jinja: HTML is used to structure the web pages, while Jinja is a templating engine for Python that is used with Flask to generate dynamic HTML content. 
-5. Python-Dotenv: Python-Dotenv is a Python library that manages environment variables stored in a .env file. It is used in this project to securely store sensitive information such as credentials.
-6. Flask: Flask is a micro web framework written in Python. It is used to build the web application and define routes for handling HTTP requests.
+2. MongoDB: MongoDB is a NoSQL database program. It is used to store the scraped data (trending topics) in a database for persistence.
+3. HTML and Jinja: HTML is used to structure the web pages, while Jinja is a templating engine for Python that is used with Flask to generate dynamic HTML content. 
+4. Python-Dotenv: Python-Dotenv is a Python library that manages environment variables stored in a .env file. It is used in this project to securely store sensitive information such as credentials.
+5. Flask: Flask is a micro web framework written in Python. It is used to build the web application and define routes for handling HTTP requests.
 
 ## Features:
 1. Web Scraping: Utilizes Selenium and BeautifulSoup for web scraping to extract trending topics from Twitter's homepage.
